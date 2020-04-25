@@ -1,12 +1,124 @@
-<!DOCTYPE html>
+<!doctype html>
 <html>
-<head>
-<meta charset="UTF-8">
-<title>tg.dublic.ru</title>
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="robots" content="noindex, nofollow">
+    <title>Telegram Dublic</title>
+	<link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
+	<link rel="apple-touch-icon" sizes="180x180" href="apple-touch-icon.png">
+	<link rel="icon" type="image/png" sizes="32x32" href="favicon-32x32.png">
+	<link rel="icon" type="image/png" sizes="16x16" href="favicon-16x16.png">
+    <link href="//cdn.muicss.com/mui-latest/css/mui.min.css" rel="stylesheet" type="text/css" />
+    <script src="//cdn.muicss.com/mui-latest/js/mui.min.js"></script>
+	<style>
+html,
+body {
+  height: 100%;
+}
 
-</head>
-<body>
-<h1>tg.dublic.ru</h1>
-<p>страница tg пример</p>
-</body>
+html,
+body,
+input,
+textarea,
+button {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.004);
+}
+
+
+/**
+ * Header CSS
+ */
+
+header {
+  position: fixed;
+  top: 0;
+  right: 0;
+  left: 0;
+  z-index: 2;
+}
+
+header ul.mui-list--inline {
+  margin-bottom: 0;
+}
+
+header a {
+  color: white;
+}
+
+header table {
+  width: 100%;
+}
+
+/**
+ * Content CSS
+ */
+
+#content-wrapper {
+  min-height: 100%;
+
+  /* sticky footer */
+  box-sizing: border-box;
+  margin-bottom: -100px;
+  padding-bottom: 100px;
+}
+
+
+/**
+ * Footer CSS
+ */
+
+footer {
+  box-sizing: border-box;
+  height: 100px;
+  background-color: #eee;
+  border-top: 1px solid #e0e0e0;
+  padding-top: 35px;
+}
+    </style>
+  </head>
+  <body>
+    <header class="mui-appbar mui--z1">
+      <div class="mui-container">
+        <table>
+          <tr class="mui--appbar-height">
+            <td class="mui--text-title">Telegram</td>
+            <td align="mui--text-right">
+              <ul class="mui-list--inline mui--text-body2 mui--text-right">
+                <li>Нет Telegram?</li>
+				<li> ⇢ <a href="https://tlgrm.ru/apps" target="blank">Установить</a></li>
+              </ul>
+            </td>
+          </tr>
+        </table>
+      </div>
+    </header>
+    <div id="content-wrapper" class="mui--text-center">
+      <div class="mui--appbar-height"></div>
+      <br>
+      <br>
+	  <div class="mui-container"><img src="icon_dublic_100px.png" alt="Dublic"></div>
+      <div class="mui--text-headline">Dublic</div>
+	  <br>
+	  <div class="mui--text-subhead">Изучаем, Убеждаем, Берём в плен</div>
+      <br>
+      <div class="mui--text-subhead">👇</div>
+      <a href="tg://resolve?domain=dublicru"><button class="mui-btn mui-btn--raised mui-btn--primary" onclick="activateOverlay()">Открыть</button></a>
+    <div class="mui--text-subhead"><br><a href="http://tap.dublic.ru" target="blank">Интернет-маркетинг <br>и запуск бизнеса в онлайн</a></div>
+	</div>
+	<script>
+		function activateOverlay() {
+    // show overlay
+    mui.overlay('on');
+  }
+</script>
+    <footer>
+      <div class="mui-container mui--text-center">
+        Сделано с ♥ <a href="tg://resolve?domain=dublicru" target="blank">Связаться с нами</a>
+      </div>
+    </footer>
+  </body>
 </html>
